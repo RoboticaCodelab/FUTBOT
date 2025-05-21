@@ -1,12 +1,27 @@
 /*
-   Autores:
-   Javier Ronaldo Gil Ayala
-   Juan Sebastián Carreño Patiño
-   
-   Año: 2025
-   Proyecto: Futbot - Prueba de Motores
-   Descripción:
-   - Activa los motores en diferentes direcciones con pausas entre cada acción.
+  ============================================================================
+  ROBÓTICA CODELAB SAS. 
+  
+  Proyecto: Código de prueba para motores con ESP32 y Driver L293D
+  Autor: Javier Ronaldo Gil Ayala - Juan Sebastian Carreño Patiño
+  Fecha de desarrollo: Mayo de 2025
+
+  Descripción:
+  Este código fue desarrollado como parte de un proyecto educativo para probar el control básico de dos motores DC utilizando un ESP32 y el driver L293D. 
+  El objetivo es verificar el funcionamiento de los motores, permitiendo movimientos hacia adelante, atrás y paradas, mediante la activación directa de los pines de control desde el microcontrolador.
+
+  Uso:
+  - Conecta el ESP32 al driver L293D y a los motores según el esquema de pines definido en el código.
+  - Alimenta adecuadamente el driver y los motores.
+  - Carga este código en el ESP32.
+  - Observa la secuencia de movimientos de los motores (adelante, parada, atrás, parada) como prueba de funcionamiento.
+
+  Este proyecto sirve como base para el desarrollo de sistemas de robótica móvil y control de actuadores en tiempo real.
+
+  www.roboticacodelab.com - Página principal 
+  www.roboticacodelab.online - Página educativa 
+  www.instagram.com/robotica_codelab - Instagram
+  ============================================================================
 */
 
 #define MOTOR_IZQ_A 27
